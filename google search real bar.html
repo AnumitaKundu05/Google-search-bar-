@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Google</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        #search-container {
+            text-align: center;
+            margin-top: 150px;
+        }
+        #logo {
+            width: 200px;
+            height: auto;
+        }
+        #search-box {
+            width: 400px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+            font-size: 16px;
+            outline: none;
+        }
+        #search-button {
+            background-color: #4285F4;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="search-container">
+        <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_light_color_92x30dp.png" alt="Google Logo">
+        <br>
+        <form action="https://www.google.com/search" method="GET">
+            <input type="text" id="search-box" name="q" placeholder="Search Google">
+            <br><br>
+            <input type="submit" id="search-button" value="Google Search">
+        </form>
+        <br>
+        <a href="https://www.google.com/advanced_search">Advanced Search</a> | <a href="https://www.google.com/preferences">Preferences</a>
+    </div>
+</body>
+</html>
